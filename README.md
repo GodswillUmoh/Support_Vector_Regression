@@ -22,6 +22,18 @@ May struggle with very large datasets.
 Requires careful tuning of hyperparameters (𝜖, and kernel parameters).
 
 ### Note:
-Ordinary Least Squares helps to minimize the error between the actual value and predicted values over the regression line. That is squaring the difference between the actual value and predicted value. But in SVR, a tube is spread over the data. 
+Ordinary Least Squares helps to minimize the error between the actual value and predicted values over the regression line. That is squaring the difference between the actual value and predicted value.
 
-[Click here to see case for ordinary least squares and SVR](https://ibb.co/Y8fytmp)
+## Kernel Trick:
+Like SVM for classification, SVR can handle both linear and non-linear relationships by using kernel functions (e.g., linear, polynomial, radial basis function (RBF)).
+
+## What is the Tube in SVR called?
+The tube in Support Vector Regression (SVR) is commonly referred to as the epsilon-insensitive tube (or ε-tube).
+
+## Key Details About the Epsilon-Insensitive Tube:
+> + Purpose: The tube defines a margin of tolerance (𝜖) around the true target values. Predictions falling within this margin are considered acceptable and do not contribute to the error.
+
+> + Characteristics: Data points lying inside the tube are ignored during model training, as their errors are treated as negligible.
+Only points outside the tube (support vectors) influence the regression model.
+
+> + Flexibility: The width of the tube is controlled by the hyperparameter 𝜖. A larger 𝜖 creates a wider tube, focusing on capturing general trends and ignoring small deviations. A smaller 𝜖 results in a tighter fit but increases sensitivity to noise.
