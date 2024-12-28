@@ -29,6 +29,8 @@ Like SVM for classification, SVR can handle both linear and non-linear relations
 
 ## What is the Tube in SVR called?
 The tube in Support Vector Regression (SVR) is commonly referred to as the epsilon-insensitive tube (or ε-tube).
++ The points inside the tube can be seen as the margin error we allow our model to have.
++ The points outside the tube are cared about. The distance between the tube and the points outside is calculated unlike the OLS where the distance between the points and the predicted values (line) is calculated.
 
 ## Key Details About the Epsilon-Insensitive Tube:
 > + Purpose: The tube defines a margin of tolerance (𝜖) around the true target values. Predictions falling within this margin are considered acceptable and do not contribute to the error.
