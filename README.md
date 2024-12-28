@@ -22,4 +22,6 @@ May struggle with very large datasets.
 Requires careful tuning of hyperparameters (𝜖, and kernel parameters).
 
 ### Note:
-Ordinary Least Squares helps to minimize the error between the actual value and predicted values over the regression line. That is squaring the difference between the actual value and predicted value.
+Ordinary Least Squares helps to minimize the error between the actual value and predicted values over the regression line. That is squaring the difference between the actual value and predicted value. But in SVR, a tube is spread over the data. 
+
+[Click here to see case for ordinary least squares and SVR](https://ibb.co/Y8fytmp)
