@@ -59,3 +59,8 @@ Only points outside the tube (support vectors) influence the regression model.
 
 ## Mathematical computation - SVR
 [See the formula here! Click to View](https://ibb.co/KqH9c6Z)
+
+### Where:
++ w is the weight vector of the model.
++ 𝐶 is the regularization parameter, which determines the penalty for violating the 𝜖-insensitive tube.
++ ξi  and 𝜉𝑖∗  are the slack variables that represent how much the 𝑖-th data point deviates from the tube.
