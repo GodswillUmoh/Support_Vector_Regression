@@ -12,3 +12,11 @@ Focuses on data within the 𝜖-margin, ignoring small deviations.
 
 > + Non-Linear Relationships:
 Models complex, non-linear relationships through kernels.
+
+## Disadvantages of SVR
+> + Computational Complexity:
+Training can be slow for large datasets due to quadratic optimization.
+> + Scalability:
+May struggle with very large datasets.
+> + Parameter Tuning:
+Requires careful tuning of hyperparameters (𝜖, and kernel parameters).
