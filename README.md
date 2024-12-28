@@ -22,7 +22,7 @@ May struggle with very large datasets.
 Requires careful tuning of hyperparameters (𝜖, and kernel parameters).
 
 ### Note:
-Ordinary Least Squares helps to minimize the error between the actual value and predicted values over the regression line. That is squaring the difference between the actual value and predicted value.
+Ordinary Least Squares helps to minimize the error between the actual value and predicted values over the regression line. That is squaring the difference between the actual value and predicted value. Any points outside the tube is regarded as the support vector
 
 ## Kernel Trick:
 Like SVM for classification, SVR can handle both linear and non-linear relationships by using kernel functions (e.g., linear, polynomial, radial basis function (RBF)).
