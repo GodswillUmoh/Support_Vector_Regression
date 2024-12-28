@@ -56,3 +56,6 @@ The tube in Support Vector Regression (SVR) is commonly referred to as the epsil
 Only points outside the tube (support vectors) influence the regression model.
 
 > + Flexibility: The width of the tube is controlled by the hyperparameter 𝜖. A larger 𝜖 creates a wider tube, focusing on capturing general trends and ignoring small deviations. A smaller 𝜖 results in a tighter fit but increases sensitivity to noise.
+
+## Mathematical computation - SVR
+[See the formula here! Click to View](https://ibb.co/KqH9c6Z)
