@@ -64,3 +64,5 @@ Only points outside the tube (support vectors) influence the regression model.
 + w is the weight vector of the model.
 + 𝐶 is the regularization parameter, which determines the penalty for violating the 𝜖-insensitive tube.
 + ξi  and 𝜉𝑖∗  are the slack variables that represent how much the 𝑖-th data point deviates from the tube.
+
+### This is linear type
