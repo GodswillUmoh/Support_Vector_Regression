@@ -4,11 +4,11 @@
 > SVR introduces a margin of tolerance (𝜖) within which predictions are considered acceptable. Data points lying outside the 𝜖-margin are called support vectors, as they determine the regression line.
 
 ## Advantages of SVR
-+ Effective with High Dimensions:
+> + Effective with High Dimensions:
 Handles high-dimensional data efficiently, especially with kernel tricks.
 
-+ Robust to Outliers:
+> + Robust to Outliers:
 Focuses on data within the 𝜖-margin, ignoring small deviations.
 
-+ Non-Linear Relationships:
+> + Non-Linear Relationships:
 Models complex, non-linear relationships through kernels.
